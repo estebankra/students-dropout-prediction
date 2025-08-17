@@ -228,7 +228,7 @@ Configuraciones recomendadas en `settings.json`:
 pnpm dev
 ```
 
-La aplicación estará disponible en: `http://localhost:5173` (o el puerto que indique Vite)
+La aplicación estará disponible en: `http://localhost:4000` (o el puerto que indique Vite)
 
 ---
 
@@ -259,7 +259,7 @@ La aplicación estará disponible en: `http://localhost:5173` (o el puerto que i
 
 ### URLs del Sistema
 
-- **Frontend**: `http://localhost:5173`
+- **Frontend**: `http://localhost:4000`
 - **API Backend**: `http://localhost:8000`
 - **Documentación API**: `http://localhost:8000/docs`
 - **Jupyter Lab**: `http://localhost:8888`
@@ -285,7 +285,7 @@ La aplicación estará disponible en: `http://localhost:5173` (o el puerto que i
 
 - [ ] La aplicación Vue 3 se ejecuta correctamente
 - [ ] No hay errores en la consola del navegador
-- [ ] La interfaz carga correctamente en `http://localhost:5173`
+- [ ] La interfaz carga correctamente en `http://localhost:4000`
 
 ### 4. Verificar Integración
 
@@ -343,7 +343,7 @@ pnpm preview
 
 - **Error de versión Node**: Usar `nvm use 21`
 - **Error de dependencias**: Ejecutar `pnpm install` nuevamente
-- **Error de puerto**: Verificar que el puerto 5173 esté disponible
+- **Error de puerto**: Verificar que el puerto 4000 esté disponible
 
 ### Problemas de Jupyter
 
